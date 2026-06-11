@@ -1,0 +1,7 @@
+myfile = open("Apurv.txt", "a")
+myfile.write("hello world 1")
+myfile.close()
+myfile2 = open("Apurv.txt", "r")
+content = myfile2.read()
+print(content)
+myfile2.close()
